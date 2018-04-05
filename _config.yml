@@ -31,11 +31,21 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 header_pages:
   - about.md
-  - blog.md
+  - blog/index.html
 show_excerpts: true
-permalink: pretty
+permalink: /:year/:month/:title/
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/blog/:num/'
+#  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
