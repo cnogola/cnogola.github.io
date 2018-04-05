@@ -41,7 +41,7 @@ permalink: /:year/:month/:title/
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/blog/:num/'
+  permalink: '/page/:num/'
 #  title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
