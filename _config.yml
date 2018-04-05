@@ -34,6 +34,7 @@ header_pages:
   - about.md
   - blog.md
 show_excerpts: true
+permalink: pretty
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
