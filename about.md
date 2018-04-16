@@ -5,7 +5,8 @@ permalink: /about/
 published: true
 ---
 
-## About me
+### Me
+
 My name is Gonçalo Lourenço, I'm 36 years old and a proudly father of two.
 
 In my spare time i like to read, listen music and exercise myself, both mentally and physically.
@@ -16,8 +17,7 @@ In this 5y of learning i had the opportunity to work with a lot of different peo
 
 Please contact me outside business hours if you think our conversation can take long.
 
-### About site
-
+### Site
 
 This site was built using [jekyllrb.com](https://jekyllrb.com/) and its powered by [GitHub Pages](https://pages.github.com/). Jekyll is a simple, blog-aware, static site generator and it works based on templates. This website is making use of a gem-based theme called [minima](https://github.com/jekyll/minima).
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
