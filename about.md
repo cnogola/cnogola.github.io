@@ -17,7 +17,7 @@ Please contact me outside business hours if you think our conversation can take 
 
 ### Site
 
-This site was built using [jekyllrb.com](https://jekyllrb.com/) and its powered by [GitHub Pages](https://pages.github.com/). Jekyll is a simple, blog-aware, static site generator and it works based on templates. This website is making use of a gem-based theme called [minima](https://github.com/jekyll/minima).
+This site was built using [jekyll](https://jekyllrb.com/) and its powered by [GitHub Pages](https://pages.github.com/). Jekyll is a simple, blog-aware, static site generator and it works based on templates. This website is making use of a gem-based theme called [minima](https://github.com/jekyll/minima).
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
