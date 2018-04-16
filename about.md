@@ -30,7 +30,7 @@ You can find the source code for Jekyll at GitHub:
 
 You can find the source code for this website:
 [GiHub][myGitHub] /
-[Gonçalo](https://github.com/cnogola/cnogola.github.io)
+[cnogola](https://github.com/cnogola/cnogola.github.io)
 
 [jekyll-organization]: https://github.com/jekyll
 [myGitHub]: https://github.com/cnogola
