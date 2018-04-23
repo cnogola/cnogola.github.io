@@ -37,6 +37,7 @@ header_pages:
   - blog/index.html
 show_excerpts: true
 permalink: /blog/:year/:month/:title/
+
 # Pagination Settings
 pagination:
   enabled: true
@@ -46,6 +47,9 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+  
+# Google Analytics
+google_analytics: UA-118012353-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
