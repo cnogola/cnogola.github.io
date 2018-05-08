@@ -35,6 +35,7 @@ plugins:
 header_pages:
   - about.md
   - blog/index.html
+  - cv/index.html
 show_excerpts: true
 permalink: /blog/:year/:month/:title/
 
