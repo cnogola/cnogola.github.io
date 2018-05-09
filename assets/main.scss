@@ -13,7 +13,10 @@
     width: calc(25% - (30px / 2));
 }
 
-.cv, #period {
+.cv {
 	font-size: 30px;
-    font-weight: bold;
+}
+
+#period {
+	font-weight: bold;
 }
