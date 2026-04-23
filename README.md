@@ -1,6 +1,6 @@
 # cnogola.github.io
 
-Personal site and blog for [Gonçalo Lourenço](https://github.com/cnogola) — about software testing, a CV, and occasional posts. The live site is at **[https://cnogola.github.io](https://cnogola.github.io)**.
+Personal site and work portfolio of [Gonçalo Lourenço](https://github.com/cnogola). The live site is at **[https://cnogola.github.io](https://cnogola.github.io)**.
 
 ## Stack
 
@@ -28,7 +28,7 @@ If you change `_config.yml`, restart the server so changes apply.
 |------|--------|
 | `_config.yml` | Site title, theme, plugins, navigation, analytics |
 | `_layouts/`, `_includes/` | Layout overrides |
-| `_posts/` | Blog posts (Markdown) |
+| `_posts/` | Portfolio (Markdown) |
 | `blog/`, `about.md`, `cv/`, `contacts/` | Main pages |
 | `assets/` | Styles (`main.scss`) and images |
 
