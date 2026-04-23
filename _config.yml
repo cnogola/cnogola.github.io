@@ -18,8 +18,7 @@ title: Gonçalo Lourenço
 author: cnogola
 email: cnogola@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Learn about my previous work experience as a software test consultant
-  or dig deeply on some of my thoughts and feelings about software testing.
+  Learn about my previous work experience as a software tester.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -34,17 +33,17 @@ plugins:
   - jekyll-paginate-v2
 header_pages:
   - about.md
-  - blog/index.html
+  - portfolio/index.html
   - cv/index.html
   - contacts/index.html
 show_excerpts: true
-permalink: /blog/:year/:month/:title/
+permalink: /portfolio/:year/:month/:title/
 
 # Pagination Settings
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/blog/:num/'
+  permalink: '/portfolio/:num/'
 #  title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
