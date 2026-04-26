@@ -17,3 +17,7 @@
 #cv {
 	font-weight: regular;
 }
+
+.post-list-heading {
+	@include relative-font-size(1.75);
+}
