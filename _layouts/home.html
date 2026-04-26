@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 ---
 
 <div class="home">
@@ -10,7 +10,7 @@ layout: base
   {{ content }}
 
 
-  {% if site.paginate %}
+  {% if page.pagination and page.pagination.enabled %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
@@ -18,9 +18,7 @@ layout: base
 
 
   {%- if site.posts.size > 0 -%}
-    {%- if page.list_title -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Personal Projects and Experiences" }}</h2>
-    {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
@@ -31,14 +29,16 @@ layout: base
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.minima.show_excerpts -%}
+        {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+    {% if page.pagination and page.pagination.enabled and paginator %}
       <div class="pager">
         <ul class="pagination">
         {%- if paginator.previous_page %}
